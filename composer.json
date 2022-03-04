@@ -1,9 +1,0 @@
-{
-    "name" : "hexxore/supple",
-    "description": "Repository for Hexxore Supple development.",
-    "license": "MIT",
-    "require-dev": {
-        "symplify/monorepo-builder": "^10.1"
-    }
-}
- 
