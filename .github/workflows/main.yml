@@ -21,8 +21,8 @@ jobs:
                 # define package to repository map
                 package:
                     -
-                        local_path: 'packages'
-                        split_repository: 'packages'
+                        local_path: 'supple'
+                        split_repository: 'supple'
         steps:
             -   uses: actions/checkout@v2
 
