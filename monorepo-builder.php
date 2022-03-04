@@ -25,7 +25,6 @@ return static function (ContainerConfigurator $containerConfigurator): void {
         __DIR__ . '/packages',
         
         // add contracts?
-        __DIR__ . ''
     ]);
     // for "merge" command
     $parameters->set(Option::DATA_TO_APPEND, [
