@@ -5,7 +5,7 @@
         "symplify/monorepo-builder": "^10.1"
     },
     "conflict": {
-        "hexxore/mirror": "<0.0.3",
-        "hexxore/quantum": "<0.0.3"
+        "hexxore/mirror": "<0.0.4",
+        "hexxore/quantum": "<0.0.4"
     }
 }
