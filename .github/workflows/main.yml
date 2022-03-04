@@ -42,7 +42,7 @@ jobs:
                     repository_name: '${{ matrix.package.split_repository }}'
 
                     # ↓ the user signed under the split commit
-                    user_name: "wuffz"
+                    user_name: "Wuffz"
                     user_email: "proozeboom91@gmail.com"
 
             # with tag
@@ -63,5 +63,5 @@ jobs:
                     # repository_host: git.private.com:1234
 
                     # ↓ the user signed under the split commit
-                    user_name: "wuffz"
+                    user_name: "Wuffz"
                     user_email: "proozeboom91@gmail.com"
