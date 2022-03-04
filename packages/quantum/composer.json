@@ -9,7 +9,7 @@
         }
     },
     "conflict": {
-        "hexxore/mirror": "<0.0.1",
-        "hexxore/supple": "<0.0.1"
+        "hexxore/mirror": "<0.0.3",
+        "hexxore/supple": "<0.0.3"
     }
 }
