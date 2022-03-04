@@ -1,0 +1,15 @@
+{
+    "name": "hexxore/quantum",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hexxore\\Quantum\\": "src"
+        }
+    },
+    "conflict": {
+        "hexxore/mirror": "<0.0.1",
+        "hexxore/supple": "<0.0.1"
+    }
+}

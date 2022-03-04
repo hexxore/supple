@@ -1,0 +1,11 @@
+{
+    "name": "hexxore/supple",
+    "description": "Repository for Hexxore Supple packages development.",
+    "require-dev": {
+        "symplify/monorepo-builder": "^10.1"
+    },
+    "conflict": {
+        "hexxore/mirror": "<0.0.1",
+        "hexxore/quantum": "<0.0.1"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": [
+        {
+            "name": "symplify/monorepo-builder",
+            "version": "10.1.1",
+            "version_normalized": "10.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symplify/monorepo-builder.git",
+                "reference": "f27610f4e88e502764e67d0e1988309e604c6852"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symplify/monorepo-builder/zipball/f27610f4e88e502764e67d0e1988309e604c6852",
+                "reference": "f27610f4e88e502764e67d0e1988309e604c6852",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "time": "2022-03-03T17:22:20+00:00",
+            "bin": [
+                "bin/monorepo-builder"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "9.5-dev"
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Prefixed version of Not only Composer tools to build a Monorepo.",
+            "support": {
+                "source": "https://github.com/symplify/monorepo-builder/tree/10.1.1"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/rectorphp",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/tomasvotruba",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../symplify/monorepo-builder"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": [
+        "symplify/monorepo-builder"
+    ]
+}
