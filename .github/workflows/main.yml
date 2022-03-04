@@ -21,11 +21,8 @@ jobs:
                 # define package to repository map
                 package:
                     -
-                        local_path: 'mirror'
-                        split_repository: 'mirror'
-                    -
-                        local_path: 'quantum'
-                        split_repository: 'quantum'
+                        local_path: 'packages'
+                        split_repository: 'packages'
         steps:
             -   uses: actions/checkout@v2
 
