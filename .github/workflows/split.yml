@@ -39,7 +39,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Monorepo Split of ${{ matrix.package }}
-        uses: symplify/github-action-monorepo-split@main
+        uses: Wuffz/monorepo-split-github-action@main
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
