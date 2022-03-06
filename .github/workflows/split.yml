@@ -48,3 +48,4 @@ jobs:
           repository_name: '${{ matrix.package }}'
           user_name: "Wuffz"
           user_email: "proozeboom91@gmail.com"
+          init_upstream: "yes"
