@@ -1,2 +1,1 @@
-# supple
-testing monorepo here.
+# Hexxore Supple is a collection libraries.
