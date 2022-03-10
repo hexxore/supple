@@ -1,15 +1,18 @@
 {
-    "name": "hexxore/mirror",
+    "name": "hexxore/habitat",
     "require": {
         "php": "^8.0"
     },
     "autoload": {
         "psr-4": {
-            "Hexxore\\Mirror\\": "src"
+            "Hexxore\\Habitat\\": "src"
         }
     },
     "conflict": {
         "hexxore/quantum": "<0.0.4",
         "hexxore/supple": "<0.0.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }

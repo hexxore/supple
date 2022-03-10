@@ -1,15 +1,15 @@
 {
-    "name": "hexxore/quantum",
+    "name": "hexxore/omni",
     "require": {
         "php": "^8.0"
     },
     "autoload": {
         "psr-4": {
-            "Hexxore\\Quantum\\": "src"
+            "Hexxore\\Omni\\": "src"
         }
     },
     "conflict": {
-        "hexxore/mirror": "<0.0.4",
+        "hexxore/quantum": "<0.0.4",
         "hexxore/supple": "<0.0.4"
     }
 }
