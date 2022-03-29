@@ -8,17 +8,39 @@
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12",
-        "symplify/monorepo-builder": "^10.1",
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "symplify/monorepo-builder": "^10.1"
     },
     "autoload": {
         "psr-4": {
-            "Hexxore\\Mirror\\": "packages/mirror/src",
-            "Hexxore\\Quantum\\": "packages/quantum/src"
+            "Hexxore\\Bunch\\": "packages/Bunch/src",
+            "Hexxore\\Mirror\\": [
+                "packages/Mirror/src"
+            ],
+            "Hexxore\\Omni\\": "packages/Omni/src",
+            "Hexxore\\Quantum\\": [
+                "packages/Quantum/src"
+            ],
+            "Hexxore\\Query\\": [
+                "packages/Query/src"
+            ],
+            "Hexxore\\Support\\": "packages/Support/src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hexxore\\Query\\Tests\\": [
+                "packages/Bunch/tests/",
+                "packages/Query/tests/"
+            ]
         }
     },
     "replace": {
+        "hexxore/bunch": "self.version",
         "hexxore/mirror": "self.version",
-        "hexxore/quantum": "self.version"
+        "hexxore/omni": "self.version",
+        "hexxore/quantum": "self.version",
+        "hexxore/query": "self.version",
+        "hexxore/support": "self.version"
     }
 }

@@ -1,11 +1,11 @@
 {
-    "name": "hexxore/habitat",
+    "name": "hexxore/support",
     "require": {
         "php": "^8.0"
     },
     "autoload": {
         "psr-4": {
-            "Hexxore\\Habitat\\": "src"
+            "Hexxore\\Support\\": "src"
         }
     },
     "conflict": {
