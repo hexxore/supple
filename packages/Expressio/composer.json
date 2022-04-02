@@ -1,0 +1,19 @@
+{
+    "name": "hexxore/expressio",
+    "require": {
+        "php": "^8.0",
+        "hexxore/support": "<0.0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hexxore\\Expressio\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Hexxore\\Expressio\\Tests\\": "tests/" }
+    },
+    "conflict": {
+        "hexxore/quantum": "<0.0.4",
+        "hexxore/supple": "<0.0.4"
+    }
+}
