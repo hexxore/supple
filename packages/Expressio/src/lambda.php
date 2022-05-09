@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-require_once("./vendor/autoload.php");
+require_once("../../../vendor/autoload.php");
 use \Roave\BetterReflection\Reflection\ReflectionFunction;
 use \Roave\BetterReflection\Reflection\ReflectionClass;
 use \Roave\BetterReflection\Reflection\ReflectionMethod;

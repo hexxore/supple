@@ -2,7 +2,7 @@
     "name": "hexxore/expressio",
     "require": {
         "php": "^8.0",
-        "hexxore/support": "<0.0.4"
+        "roave/better-reflection": "5.4"
     },
     "autoload": {
         "psr-4": {

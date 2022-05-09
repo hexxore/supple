@@ -1,0 +1,24 @@
+{
+    "name": "hexxore/matter",
+    "require": {
+        "php": "^8.0",
+        "mongodb/mongodb": "^1.12",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hexxore\\Matter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Hexxore\\Matter\\Tests\\": "tests/" }
+    },
+    "conflict": {
+        "hexxore/matter": "<0.0.4",
+        "hexxore/supple": "<0.0.4"
+    }
+}
